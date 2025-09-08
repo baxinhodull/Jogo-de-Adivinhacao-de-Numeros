@@ -1,107 +1,37 @@
-Este é um jogo simples de adivinhação de números em Python. O objetivo do jogo é adivinhar o número sorteado dentro de um intervalo fornecido pelo usuário, dentro de um número limitado de tentativas.
+Claro, aqui está uma sugestão de README.md para o seu projeto.
 
-Funcionalidades
-O jogo permite ao usuário definir o intervalo de números (mínimo e máximo) em que o número será sorteado.
+🎮 Jogo da Adivinhação com Tkinter
+Um jogo simples de adivinhação de números desenvolvido em Python com uma interface gráfica (GUI) usando a biblioteca Tkinter.
 
-O usuário tem um número específico de tentativas para adivinhar o número sorteado.
+📜 Descrição
+Este é um clássico jogo de "adivinhe o número". O programa gera um número aleatório dentro de um intervalo definido pelo usuário, que então deve tentar adivinhar qual é esse número em um número limitado de tentativas. A interface gráfica torna a interação mais amigável e intuitiva.
 
-Após cada tentativa, o jogo dá dicas: "Tente um número maior!" ou "Tente um número menor!".
+✨ Funcionalidades
+Intervalo Personalizável: O jogador pode definir o valor mínimo e máximo para o número a ser sorteado.
 
-O jogo termina quando o usuário acerta o número ou esgota as tentativas.
+Tentativas Configuráveis: É possível escolher quantas tentativas o jogador terá para acertar o número.
 
-O usuário pode optar por jogar novamente após o fim de uma partida.
+Interface Gráfica Simples: Criada com a biblioteca padrão do Python, Tkinter, para uma experiência de usuário fácil e direta.
 
-Como Rodar o Código
+Feedback Instantâneo: O jogo informa se o palpite do jogador é maior ou menor que o número secreto.
 
-Pré-requisitos: Este código requer Python 3.x instalado no seu computador.
+Validação de Entrada: Garante que apenas valores válidos sejam inseridos para iniciar o jogo.
 
-Executando o Jogo:
+🚀 Como Executar
+Para rodar o jogo, você precisa ter o Python 3 instalado em sua máquina. A biblioteca Tkinter geralmente já vem inclusa na instalação padrão do Python.
 
+Clone ou baixe este repositório/arquivo.
 
-Abra um terminal ou prompt de comando.
-
-Navegue até o diretório onde o arquivo Python (jogo.py) está localizado.
-
-Execute o comando:
-
-python jogo.py
-
-Regras:
+Navegue até o diretório onde salvou o arquivo.
 
 
-O programa vai solicitar que você informe o número mínimo e máximo do intervalo.
+🕹️ Como Jogar
+Defina as regras: Na tela inicial, insira o intervalo de números (mínimo e máximo) e a quantidade de tentativas que você deseja ter.
 
-Em seguida, ele pedirá para você indicar quantas tentativas terá para adivinhar o número sorteado.
+Inicie o Jogo: Clique no botão "Iniciar Jogo".
 
-A cada tentativa, o programa vai dar uma dica se o número inserido for maior ou menor que o número sorteado.
+Faça seu palpite: Digite um número no campo de texto e clique em "Chutar".
 
-Você pode escolher jogar novamente após o fim de cada rodada.
+Siga as dicas: O jogo informará se o número secreto é maior ou menor que o seu palpite e quantas tentativas ainda restam.
 
-
-Exemplo de Execução
-
-Qual o número mínimo do intervalo?
-1
-
-Qual o número máximo do intervalo?
-100
-
-Quantas tentativas para acertar?
-5
-
-Digite um número entre 1 e 100.
-50
-
-Tente um número menor!
-
-Você ainda tem 4 tentativas.
-
-Digite um número entre 1 e 100.
-30
-
-Tente um número maior!
-
-Você ainda tem 3 tentativas.
-
-Digite um número entre 1 e 100.
-40
-
-PARABÉNS VOCÊ ACERTOU O NÚMERO!
-
-Você quer jogar novamente? (s/n)
-n
-
-Obrigado por jogar!
-
-Detalhes do Código
-
-Entrada de Dados:
-
-
-O usuário escolhe o intervalo de números (mínimo e máximo).
-
-
-O número de tentativas também é definido pelo usuário.
-
-Lógica:
-
-
-O número sorteado é escolhido aleatoriamente entre o intervalo fornecido.
-
-O usuário tem um número limitado de tentativas para adivinhar o número sorteado.
-
-Se o número informado for menor ou maior que o sorteado, o jogo fornece dicas para ajustar a próxima tentativa.
-
-Repetição:
-
-O jogo pergunta se o usuário quer jogar novamente ao final de cada rodada.
-
-O jogo continua até o usuário decidir não jogar mais.
-
-Tecnologias Usadas
-Python 3.x
-Biblioteca random (para gerar números aleatórios)
-
-Licença
-
-Este projeto é de código aberto. Sinta-se livre para usar, modificar e distribuir conforme desejar.
+Continue tentando até acertar o número ou até suas tentativas se esgotarem. Você pode jogar novamente após o fim de cada partida!
