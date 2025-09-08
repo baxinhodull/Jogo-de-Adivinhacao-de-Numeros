@@ -1,6 +1,5 @@
-Claro, aqui está uma sugestão de README.md para o seu projeto.
+🎮 Jogo da Adivinhação com Tkinter 🎮
 
-🎮 Jogo da Adivinhação com Tkinter
 Um jogo simples de adivinhação de números desenvolvido em Python com uma interface gráfica (GUI) usando a biblioteca Tkinter.
 
 📜 Descrição
